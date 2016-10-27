@@ -1,0 +1,455 @@
+:root
+	--soil: #57442a
+	--natural: #f5f3ee
+	--text: #494435
+	--wheat: #b37b2b
+
+h1, h2, h3, h4, h5, h6, p, div, span
+	color var(--text)
+
+a 
+	display inline-block
+	-webkit-transition: all 200ms, top 300ms, cubic-bezier(0.000, 0.000, 0.000, 1.000); 
+	   -moz-transition: all 200ms, top 300ms, cubic-bezier(0.000, 0.000, 0.000, 1.000);
+	     -o-transition: all 200ms, top 300ms, cubic-bezier(0.000, 0.000, 0.000, 1.000); 
+	        transition: all 200ms, top 300ms, cubic-bezier(0.000, 0.000, 0.000, 1.000);
+
+a:hover
+	text-decoration none
+	opacity .6
+
+.hr
+	display inline-block
+	height 1px
+	background var(--soil)
+	width 200px
+	margin-bottom 5px
+
+.hr-long
+	display inline-block
+	height 1px
+	background var(--soil)
+	width 100%
+	margin-bottom 5px
+
+p 
+	letter-spacing 1px
+
+#nav
+	margin-top 10px
+	margin-bottom 50px
+
+.nav-icon
+	width 16px
+	margin-left 5px
+	color var(--wheat)
+	-webkit-transition: all 200ms, top 300ms, cubic-bezier(0.000, 0.000, 0.000, 1.000); 
+	   -moz-transition: all 200ms, top 300ms, cubic-bezier(0.000, 0.000, 0.000, 1.000);
+	     -o-transition: all 200ms, top 300ms, cubic-bezier(0.000, 0.000, 0.000, 1.000); 
+	        transition: all 200ms, top 300ms, cubic-bezier(0.000, 0.000, 0.000, 1.000); 
+
+.nav-icon:hover
+	opacity .8
+	transform scale(1.1)
+
+.top-logo
+	-webkit-transition: all 200ms, top 300ms, cubic-bezier(0.000, 0.000, 0.000, 1.000); 
+	   -moz-transition: all 200ms, top 300ms, cubic-bezier(0.000, 0.000, 0.000, 1.000);
+	     -o-transition: all 200ms, top 300ms, cubic-bezier(0.000, 0.000, 0.000, 1.000); 
+	        transition: all 200ms, top 300ms, cubic-bezier(0.000, 0.000, 0.000, 1.000);
+
+.top-logo:hover
+	opacity .6
+	transform scale(1.1)
+
+#main
+	top 0px
+
+#my-name
+	text-align center
+	 
+.logo
+	width 100%
+	margin 0px auto
+	
+.logo img
+	max-width 30px
+	margin 0 auto
+	display block
+	margin-bottom 10px 
+
+
+body
+	background var(--natural)	
+	
+.animsition
+	width 100%
+	position absolute
+	top 200px	
+
+h1
+	font-family 'EB Garamond', Times, serif
+	text-align center
+	letter-spacing 3px
+	font-size 30px
+	font-weight 600
+	
+h2
+	font-family 'Titillium Web', sans-serif
+	font-size 18px
+	letter-spacing 2px
+	text-align center
+	
+.carousel-cell
+	padding-left 50px
+	padding-right 50px
+
+	
+.social-bar
+	width 120px
+	margin-left auto
+	margin-right auto
+	text-align justify
+	
+.socal-bar a
+	vertical-align center
+	display inline-block
+	zoom 5
+
+.social-icons img
+	height 20px
+	width 20px
+	color var(--wheat)
+	-webkit-transition: all 200ms, top 300ms, cubic-bezier(0.000, 0.000, 0.000, 1.000); 
+	   -moz-transition: all 200ms, top 300ms, cubic-bezier(0.000, 0.000, 0.000, 1.000);
+	     -o-transition: all 200ms, top 300ms, cubic-bezier(0.000, 0.000, 0.000, 1.000); 
+	        transition: all 200ms, top 300ms, cubic-bezier(0.000, 0.000, 0.000, 1.000); 
+
+.social-icons img:hover
+	opacity .8
+	transform scale(1.1)
+
+*.stretch
+	display inline-block
+	width 100%
+
+.row-centered
+	text-align center
+
+.col-centered
+	display inline-block
+	float none
+	text-align left
+	margin-right -4px
+
+.card-mask
+	background var(--soil)
+	width 100%
+	height 100%
+	position absolute
+	opacity .5
+	z-index 1
+
+.card-mask-dark
+	background var(--soil)
+	width 100%
+	height 100%
+	position absolute
+	opacity 0
+	z-index 3
+	-webkit-transition: opacity 500ms, top 300ms, cubic-bezier(0.000, 0.000, 0.000, 1.000); 
+	   -moz-transition: opacity 500ms, top 300ms, cubic-bezier(0.000, 0.000, 0.000, 1.000);
+	     -o-transition: opacity 500ms, top 300ms, cubic-bezier(0.000, 0.000, 0.000, 1.000); 
+	        transition: opacity 500ms, top 300ms, cubic-bezier(0.000, 0.000, 0.000, 1.000); 
+	top 100%
+
+.cards:hover .card-mask-dark 
+	opacity .6
+	top 0px
+	height 200%
+
+.card-stroke
+	position absolute
+	z-index 200
+	width 110%
+	height 117%
+	margin-left -14px
+	margin-top -14px
+	outline 1px var(--soil) solid
+	opacity 0
+	-webkit-transition: opacity 500ms, top 300ms, margin 500ms, cubic-bezier(0.000, 0.075, 0.000, 1.000); 
+	   -moz-transition: opacity 500ms, top 300ms, margin 500ms, cubic-bezier(0.000, 0.075, 0.000, 1.000);
+	     -o-transition: opacity 500ms, top 300ms, margin 500ms, cubic-bezier(0.000, 0.075, 0.000, 1.000); 
+	        transition: opacity 500ms, top 300ms, margin 500ms, cubic-bezier(0.000, 0.075, 0.000, 1.000);
+
+.cards:hover .card-stroke 
+	
+	opacity .5
+
+.cards
+	position relative
+	padding 0
+	margin 30px 30px
+	text-align center
+	vertical-align baseline
+
+
+.card-box
+	position relative
+	padding 0
+	overflow hidden
+	width 100%
+	height 100%
+
+
+.card-case
+	margin-right 0px
+	
+.card-label
+	position absolute
+	width 100%
+	top 50%
+	z-index 5
+	color white
+	font-family 'Titillium Web', sans-serif
+	font-weight 600
+	letter-spacing 1.5px
+	font-size 38px
+	margin-top -24px
+	text-align center
+
+#category-bar p
+	text-align center
+
+.category-bar
+	display inline-block
+	text-align center
+	font-family 'Titillium Web', sans-serif
+	letter-spacing 1px
+	color var(--wheat)
+	font-weight 100
+
+.top-logo p
+	font-family 'EB Garamond', Times, serif
+	letter-spacing 1px
+	margin-left 2px
+
+#category-left
+	text-align left
+
+#category-right
+	text-align right
+
+#arrow-left
+	width 0px
+	height 0px
+	border-top 10px solid transparent
+	border-bottom 10px solid transparent
+	border-right 10px solid var(--wheat)
+	display inline-block
+	position relative
+	margin-bottom -4px
+	margin-right 10px
+
+#arrow-left::before
+	content ""
+	display inline-block
+	width 0px
+	height 0px
+	border-top 10px solid transparent
+	border-bottom 10px solid transparent
+	border-right 10px solid var(--natural)
+	position absolute
+	top -10px
+	left 1px
+	
+#arrow-right
+	width 0px
+	height 0px
+	border-top 10px solid transparent
+	border-bottom 10px solid transparent
+	border-left 10px solid var(--wheat)
+	display inline-block
+	position relative
+	margin-bottom -4px
+	margin-left 10px
+
+#arrow-right::before
+	content ""
+	display inline-block
+	width 0px
+	height 0px
+	border-top 10px solid transparent
+	border-bottom 10px solid transparent
+	border-left 10px solid var(--natural)
+	position absolute
+	top -10px
+	right 1px
+
+#front-card-ux:hover
+	opacity 1
+
+#front-card-id:hover
+	opacity 1
+
+#front-card-ot:hover
+	opacity 1
+
+.client-bar
+	display inline-block
+	margin-left 5px
+	margin-right 5px
+	font-family 'Titillium Web', sans-serif
+	font-weight 400
+	font-size 14px
+	letter-spacing 1px
+	color var(--soil)
+	border var(--wheat) 1px solid
+	margin-top 15px
+
+.golden-client
+	color var(--wheat)
+
+#client-bar span
+	cursor pointer
+	-webkit-transition: opacity 500ms, top 300ms, margin 500ms, cubic-bezier(0.000, 0.075, 0.000, 1.000); 
+	   -moz-transition: opacity 500ms, top 300ms, margin 500ms, cubic-bezier(0.000, 0.075, 0.000, 1.000);
+	     -o-transition: opacity 500ms, top 300ms, margin 500ms, cubic-bezier(0.000, 0.075, 0.000, 1.000); 
+	        transition: opacity 500ms, top 300ms, margin 500ms, cubic-bezier(0.000, 0.075, 0.000, 1.000);
+	        
+#client-bar span:hover
+	opacity .6
+
+.dot
+	width 3px
+	height 3px
+	border-radius 50%
+	background-color var(--soil)
+	margin-bottom -6px
+
+#client-title
+	display inline-block
+	font-family 'EB Garamond', Times, serif
+	font-size 30px
+	margin-top 30px
+	margin-bottom 14px
+	color var(--soil)
+
+.flickity-prev-next-button
+	display none
+
+.btn-prev
+	width 0px
+	height 0px
+	border-top 10px solid transparent
+	border-bottom 10px solid transparent
+	border-left 10px solid var(--wheat)
+	display inline-block
+	position relative
+	margin-bottom -4px
+	margin-left 10px
+	display none
+
+.btn-prev::before
+	content ""
+	display inline-block
+	width 0px
+	height 0px
+	border-top 10px solid transparent
+	border-bottom 10px solid transparent
+	border-left 10px solid var(--natural)
+	position absolute
+	top -10px
+	right 1px
+	display none
+
+
+.card
+	background none
+	border none
+
+.client-info
+	display inline-block
+	font-family 'Titillium Web', sans-serif
+	font-size 16px
+	color var(--soil)
+	padding 0px 20px 0px 20px
+	text-align center
+	margin 0px auto 50px
+	letter-spacing 1.1px
+	line-height 28px
+	font-weight lighter
+
+gold
+	color var(--wheat)
+	font-style italic
+
+small
+	color var(--wheat)
+	font-family 'Titillium Web', sans-serif
+	font-style italic
+	font-size .5em
+	font-weight lighter
+
+.client .row
+	vertical-align top
+	text-align top
+
+
+/*Photo Swipe*/
+	
+.my-gallery
+	width 100%
+	/*float left*/
+
+.my-gallery img
+	width 100%
+	height auto
+
+/*.my-gallery figure
+	display block
+	float left
+	margin 0 5px 5px 0
+	width 150px*/
+
+.my-gallery figcaption
+	display inline-block
+	font-family 'Titillium Web', sans-serif
+	font-size 14px
+	color var(--soil)
+	padding 5px 0px 20px 0px
+	text-align center
+	margin -20px auto 20px
+	text-align center
+	vertical-align top
+	width 100%
+
+.my-gallery figcaption::before
+	content ""
+	border-bottom 1px var(--soil) solid
+	display block
+	width 80%
+	margin 10 auto
+
+.long-view
+	max-height 400px
+	overflow hidden
+	margin-bottom 40px
+	/*padding 15px*/
+	/*border 1px solid rgba(179,123,43,.2)*/
+	vertical-align top
+
+.longer-view
+	max-height 600px
+	overflow hidden
+	margin-bottom 40px
+	/*padding 15px*/
+	/*border 1px solid rgba(179,123,43,.2)*/
+	vertical-align top
+
+.my-gallery figure
+	text-align top
+	vertical-align top
+
+	
+

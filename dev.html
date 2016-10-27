@@ -1,0 +1,430 @@
+<DOCTYPE html>
+<html>
+<head>
+<title>Jeiji Portfolio 2016</title>
+
+<!-- JQuery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="http://code.jquery.com/jquery-migrate-1.4.1.js"></script>
+
+<!-- Tether JS -->
+<script src="tether/js/tether.min.js" type="text/javascript"></script>
+
+<!-- Animsition -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/animsition/4.0.2/css/animsition.min.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animsition/4.0.2/js/animsition.min.js" type="text/javascript"></script>
+
+<!-- photoswipe Core CSS file -->
+<link rel="stylesheet" href="photoswipe/photoswipe.css">
+
+<!-- photoswipe Skin CSS file (styling of UI - buttons, caption, etc.)
+     In the folder of skin CSS file there are also:
+     - .png and .svg icons sprite,
+     - preloader.gif (for browsers that do not support CSS animations) -->
+<link rel="stylesheet" href="photoswipe/default-skin/default-skin.css">
+
+
+
+<!-- Photoswipe Core CSS file -->
+<link rel="stylesheet" href="photoswipe/photoswipe.css">
+
+<!-- Photoswipe Skin CSS file (styling of UI - buttons, caption, etc.)
+     In the folder of skin CSS file there are also:
+     - .png and .svg icons sprite,
+     - preloader.gif (for browsers that do not support CSS animations) -->
+<link rel="stylesheet" href="photoswipe/default-skin/default-skin.css">
+
+<!-- Photoswipe Core JS file -->
+<script src="photoswipe/photoswipe.min.js"></script>
+
+<!-- Photoswipe UI JS file -->
+<script src="photoswipe/photoswipe-ui-default.min.js"></script>
+
+
+
+<!-- Flickity -->
+<link rel="stylesheet" href="flickity/flickity.css" />
+<script src="flickity/flickity.pkgd.min.js" type="text/javascript"></script>
+
+<!-- Bootstrap 4 CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.4/css/bootstrap.min.css" integrity="sha384-2hfp1SzUoho7/TsGGGDaFdsuuDL0LX2hnUp6VkX3CUQ2K4K+xjboZdsXyp4oUHZj" crossorigin="anonymous">
+
+<!-- Bootstrap 4 JS -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.4/js/bootstrap.min.js" integrity="sha384-VjEeINv9OSwtWFLAtmc4JCtEJXXBub00gtSnszmspDLCtC0I4z4nqz7rEFbIZLLU" crossorigin="anonymous"></script>
+
+<!-- NO TOUCHY CSS -->
+<link href="css/main.css" rel="stylesheet">
+
+
+</head>
+
+
+
+<body>
+<!--End Aninmsition-->
+<div id="main" class="animsition">
+
+	<!--Container-->
+	<div class="container">
+
+		<!--Nav-->
+		<div id="nav" class="row row-centered">
+			<a href="index.html" class="top-logo animsition-link">
+				<img src="img/logo.svg" style="width:20px" alt="Jeiji Logo" />
+				<p style="display: inline-block;">Jeiji</p>
+			</a>
+			<a href="https://dribbble.com/BoukeChouke" target="_blank"><img class="nav-icon" src="img/dribbble.svg" alt=""/></a>
+			<a href="mailto:jeiji@me.com"><img class="nav-icon" src="img/email.svg" alt=""/></a>
+			<a href="http://masteroverwatch.com/profile/pc/us/Jeiji-1533" target="_blank"><img class="nav-icon" src="img/ow.svg" alt=""/></a>
+		</div>
+
+
+		<!--Category Bar -->
+		<div id="category-bar" class="row row-centered">
+			<a href="ot.html" id="category-left" class="animsition-left category-bar category-arrow col col-md-3 col-centered">
+				<div class="category-bar">
+					<div id="arrow-left"></div>
+				</div>
+				<p class="category-bar">Other</p>
+			</a>
+			<div class="category-bar col col-md-6 col-centered">
+				<h1>Development</h1>
+			</div>
+			<a href="id.html" id="category-right" class="animsition-right category-bar col col-md-3 col-centered">
+				<p class="category-bar">Identity</p>
+				<div class="category-bar">
+					<div id="arrow-right"></div>
+				</div>
+			</a>
+		</div>
+		<div class="hr-long"></div>
+
+
+		<!--Client Bar-->
+		<div id="client-bar" class="row row-centered">
+			<span id="client-0" class="client-bar btn-0 btn golden-client">Something Cool</span>
+			<div class="client-bar dot"></div>
+			<span id="client-1" class="client-bar btn-1 btn">Something Cooler</span>
+			<div class="client-bar dot"></div>
+			<span id="client-2" class="client-bar btn-2 btn">Wooooooow...</span>
+		</div>
+
+		<!--Client -->
+		<div class="carousel client" data-flickity>
+			<!--Whym-->
+			<div class="carousel-cell col-xs-12">
+				<div class="row row-centered">
+					<div class="btn-prev"></div>
+					<div id="client-title">
+						Whym <br /><small>at Sazze</small>
+					</div>
+				</div>
+				<div class="client-info col col-centered col-md-12">
+
+					<p>Whym was a platform allowing spontaneous and <gold>whym</gold>sical travelers to find last-minute deals on tours, attractions, and other events in the location they are visiting. We marketed our brand and designed for the young savvy professional, but we even found a market amongst those in the more mature crowd.</p>
+				</div>
+
+
+        <!--Sazze Photos-->
+
+				  <div class="my-gallery row row-centered" itemscope itemtype="http://schema.org/ImageGallery">
+
+            <figure class="col col-centered col-md-3" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+              <a href="img/ux/whym/splash.gif" itemprop="contentUrl" data-size="400x793">
+                  <img src="img/ux/whym/splash.gif" itemprop="thumbnail" alt="Whym Loader Screen" />
+              </a>
+              <figcaption itemprop="caption description">The Whym loading screen and home screen</figcaption>
+              </figure>
+
+            <figure class="col col-centered col-md-3" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+              <a href="img/ux/whym/listing.gif" itemprop="contentUrl" data-size="400x793">
+                  <img src="img/ux/whym/listing.gif" itemprop="thumbnail" alt="Image description" />
+              </a>
+              <figcaption itemprop="caption description">Flowing from the home view to choosing a listing you'd like to explore.</figcaption>
+            </figure>
+
+            <figure class="col col-centered col-md-3" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+              <a href="img/ux/whym/options.gif" itemprop="contentUrl" data-size="400x793">
+                  <img src="img/ux/whym/options.gif" itemprop="thumbnail" alt="Image description" />
+              </a>
+              <figcaption itemprop="caption description">Selecting tickets and tour options.</figcaption>
+            </figure>
+
+            <figure class="col col-centered col-md-3" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+              <a class="long-view" href="img/ux/whym/applepay.gif" itemprop="contentUrl" data-size="400x793">
+                  <img src="img/ux/whym/applepay.gif" itemprop="thumbnail" alt="Image description" />
+              </a>
+              <figcaption itemprop="caption description">ApplePay in action.</figcaption>
+            </figure>
+
+
+				  </div>
+
+
+			</div>
+			<!--End of Whym-->
+
+      <!--Whym-->
+			<div class="carousel-cell col-xs-12">
+				<div class="row row-centered">
+					<div class="btn-prev"></div>
+					<div id="client-title">
+						Whym <br /><small>at Sazze</small>
+					</div>
+				</div>
+				<div class="client-info col col-centered col-md-12">
+
+					<p>Whym was a platform allowing spontaneous and <gold>whym</gold>sical travelers to find last-minute deals on tours, attractions, and other events in the location they are visiting. We marketed our brand and designed for the young savvy professional, but we even found a market amongst those in the more mature crowd.</p>
+				</div>
+
+
+        <!--Sazze Photos-->
+
+				  <div class="my-gallery row row-centered" itemscope itemtype="http://schema.org/ImageGallery">
+
+            <figure class="col col-centered col-md-3" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+              <a href="img/ux/whym/splash.gif" itemprop="contentUrl" data-size="400x793">
+                  <img src="img/ux/whym/splash.gif" itemprop="thumbnail" alt="Whym Loader Screen" />
+              </a>
+              <figcaption itemprop="caption description">The Whym loading screen and home screen</figcaption>
+              </figure>
+
+            <figure class="col col-centered col-md-3" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+              <a href="img/ux/whym/listing.gif" itemprop="contentUrl" data-size="400x793">
+                  <img src="img/ux/whym/listing.gif" itemprop="thumbnail" alt="Image description" />
+              </a>
+              <figcaption itemprop="caption description">Flowing from the home view to choosing a listing you'd like to explore.</figcaption>
+            </figure>
+
+            <figure class="col col-centered col-md-3" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+              <a href="img/ux/whym/options.gif" itemprop="contentUrl" data-size="400x793">
+                  <img src="img/ux/whym/options.gif" itemprop="thumbnail" alt="Image description" />
+              </a>
+              <figcaption itemprop="caption description">Selecting tickets and tour options.</figcaption>
+            </figure>
+
+            <figure class="col col-centered col-md-3" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+              <a class="long-view" href="img/ux/whym/applepay.gif" itemprop="contentUrl" data-size="400x793">
+                  <img src="img/ux/whym/applepay.gif" itemprop="thumbnail" alt="Image description" />
+              </a>
+              <figcaption itemprop="caption description">ApplePay in action.</figcaption>
+            </figure>
+
+
+				  </div>
+
+
+			</div>
+			<!--End of Whym-->
+
+      <!--Whym-->
+			<div class="carousel-cell col-xs-12">
+				<div class="row row-centered">
+					<div class="btn-prev"></div>
+					<div id="client-title">
+						Whym <br /><small>at Sazze</small>
+					</div>
+				</div>
+				<div class="client-info col col-centered col-md-12">
+
+					<p>Whym was a platform allowing spontaneous and <gold>whym</gold>sical travelers to find last-minute deals on tours, attractions, and other events in the location they are visiting. We marketed our brand and designed for the young savvy professional, but we even found a market amongst those in the more mature crowd.</p>
+				</div>
+
+
+        <!--Sazze Photos-->
+
+				  <div class="my-gallery row row-centered" itemscope itemtype="http://schema.org/ImageGallery">
+
+            <figure class="col col-centered col-md-3" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+              <a href="img/ux/whym/splash.gif" itemprop="contentUrl" data-size="400x793">
+                  <img src="img/ux/whym/splash.gif" itemprop="thumbnail" alt="Whym Loader Screen" />
+              </a>
+              <figcaption itemprop="caption description">The Whym loading screen and home screen</figcaption>
+              </figure>
+
+            <figure class="col col-centered col-md-3" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+              <a href="img/ux/whym/listing.gif" itemprop="contentUrl" data-size="400x793">
+                  <img src="img/ux/whym/listing.gif" itemprop="thumbnail" alt="Image description" />
+              </a>
+              <figcaption itemprop="caption description">Flowing from the home view to choosing a listing you'd like to explore.</figcaption>
+            </figure>
+
+            <figure class="col col-centered col-md-3" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+              <a href="img/ux/whym/options.gif" itemprop="contentUrl" data-size="400x793">
+                  <img src="img/ux/whym/options.gif" itemprop="thumbnail" alt="Image description" />
+              </a>
+              <figcaption itemprop="caption description">Selecting tickets and tour options.</figcaption>
+            </figure>
+
+            <figure class="col col-centered col-md-3" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+              <a class="long-view" href="img/ux/whym/applepay.gif" itemprop="contentUrl" data-size="400x793">
+                  <img src="img/ux/whym/applepay.gif" itemprop="thumbnail" alt="Image description" />
+              </a>
+              <figcaption itemprop="caption description">ApplePay in action.</figcaption>
+            </figure>
+
+
+				  </div>
+
+
+			</div>
+			<!--End of Whym-->
+
+
+				  </div>
+
+
+			</div>
+			<!--End of Lately-->
+
+		</div>
+		<!--End Client -->
+
+	<!--End Container-->
+	</div>
+
+
+</div>
+<!--End Aninmsition-->
+<!-- Root element of PhotoSwipe. Must have class pswp. -->
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    <!-- Background of PhotoSwipe.
+         It's a separate element as animating opacity is faster than rgba(). -->
+    <div class="pswp__bg"></div>
+
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
+
+        <!-- Container that holds slides.
+            PhotoSwipe keeps only 3 of them in the DOM to save memory.
+            Don't modify these 3 pswp__item elements, data is added later on. -->
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                <!--  Controls are self-explanatory. Order can be changed. -->
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+                <!-- element will get class pswp__preloader-active when preloader is running -->
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                      <div class="pswp__preloader__cut">
+                        <div class="pswp__preloader__donut"></div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animsition/4.0.2/js/animsition.min.js" type="text/javascript"></script>
+<script src="js/main.js" type="text/javascript"></script>
+<script>
+$(document).ready(function() {
+  $(".animsition").animsition({
+    inClass: 'fade-in-up-sm',
+    outClass: 'fade-out-down-sm',
+    inDuration: 1500,
+    outDuration: 800,
+    linkElement: '.animsition-link',
+    // e.g. linkElement: 'a:not([target="_blank"]):not([href^="#"])'
+    loading: true,
+    loadingParentElement: 'body', //animsition wrapper element
+    loadingClass: 'animsition-loading',
+    loadingInner: '', // e.g '<img src="loading.svg" />'
+    timeout: false,
+    timeoutCountdown: 5000,
+    onLoadEvent: true,
+    browser: [ 'animation-duration', '-webkit-animation-duration'],
+    // "browser" option allows you to disable the "animsition" in case the css property in the array is not supported by your browser.
+    // The default setting is to disable the "animsition" in a browser that does not support "animation-duration".
+    overlay : false,
+    overlayClass : 'animsition-overlay-slide',
+    overlayParentElement : 'body',
+    transition: function(url){ window.location.href = url; }
+  });
+
+  $('.carousel').flickity({
+    "draggable": "ontouchstart" in window
+  });
+
+  var $carousel = $('.carousel');
+  function selectSlide(slideIndex) {
+  	$carousel.flickity('select', slideIndex);
+  };
+
+  $('.btn-0').on('click', function() {
+  	selectSlide(0);
+  	$(this).addClass('golden-client');
+  	$('#client-1, #client-2, #client-3').removeClass('golden-client');
+  	//document.getElementById("client-1").className += " golden-client";
+  	//document.getElementById("client-2").className = "client-bar btn-gi btn";
+  	//document.getElementById("client-3").className = "client-bar btn-dc btn";
+  });
+  $('.btn-1').on('click', function() {
+  	selectSlide(1);
+  	$(this).addClass('golden-client');
+  	$('#client-0, #client-2, #client-3').removeClass('golden-client');
+  });
+  $('.btn-2').on('click', function() {
+  	selectSlide(2);
+  	$(this).addClass('golden-client');
+  	$('#client-0, #client-1, #client-3').removeClass('golden-client');
+  });
+  $('.btn-3').on('click', function() {
+  	selectSlide(3);
+  	$(this).addClass('golden-client');
+  	$('#client-0, #client-1, #client-2').removeClass('golden-client');
+  });
+
+  initPhotoSwipeFromDOM('.my-gallery');
+});
+
+var $carousel = $('.carousel');
+function selectSlide(slideIndex) {
+	$carousel.flickity('select', slideIndex);
+};
+
+$('.btn-prev').on( 'click', function() {
+  $carousel.flickity('previous');
+});
+
+</script>
+</body>
+</html>
